@@ -4,12 +4,11 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <!-- we may need to href="{{ "/path" | prepend: site.baseurl }}"/> -->
-    <link rel="stylesheet" href="/vendor/reveal.js/dist/reset.css"/>
-    <link rel="stylesheet" href="/vendor/reveal.js/dist/reveal.css"/>
-    <link rel="stylesheet" href="/vendor/reveal.js/dist/theme/league.css"/>
-    <link rel="stylesheet" href="/vendor/reveal.js/plugin/highlight/monokai.css"/>
-    <link rel="stylesheet" href="/assets/css/custom.css"/>
+    <link rel="stylesheet" href="{{ "/vendor/reveal.js/dist/reset.css" | relative_url }}"/>
+    <link rel="stylesheet" href="{{ "/vendor/reveal.js/dist/reveal.css" | relative_url }}"/>
+    <link rel="stylesheet" href="{{ "/vendor/reveal.js/dist/theme/league.css" | relative_url }}"/>
+    <link rel="stylesheet" href="{{ "/vendor/reveal.js/plugin/highlight/monokai.css" | relative_url }}"/>
+    <link rel="stylesheet" href="{{ "/assets/css/custom.css" | relative_url }}"/>
 
   </head>
   <body>
@@ -26,10 +25,10 @@
       </div>
     </div>
 
-    <script src="/vendor/reveal.js/dist/reveal.js"></script>
-    <script src="/vendor/reveal.js/plugin/notes/notes.js"></script>
-    <script src="/vendor/reveal.js/plugin/markdown/markdown.js"></script>
-    <script src="/vendor/reveal.js/plugin/highlight/highlight.js"></script>
+    <script src="{{ "/vendor/reveal.js/dist/reveal.js" | relative_url }}"></script>
+    <script src="{{ "/vendor/reveal.js/plugin/notes/notes.js" | relative_url }}"></script>
+    <script src="{{ "/vendor/reveal.js/plugin/markdown/markdown.js" | relative_url }}"></script>
+    <script src="{{ "/vendor/reveal.js/plugin/highlight/highlight.js" | relative_url }}"></script>
     <script>
       // More info about initialization & config:
       // - https://revealjs.com/initialization/
