@@ -1,0 +1,12 @@
+# Jekyll configuration file
+
+# site settings
+title: Slides
+description: Slides for my talks.
+url: https://juseg.github.io/slides
+
+# build settings
+collections:
+  talks:
+    output: true
+    permalink: /:slug/
