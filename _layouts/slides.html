@@ -1,0 +1,56 @@
+<!doctype html>
+<!-- modified from ./vendor/reveal.js/index.html -->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <!-- we may need to href="{{ "/path" | prepend: site.baseurl }}"/> -->
+    <link rel="stylesheet" href="/vendor/reveal.js/dist/reset.css"/>
+    <link rel="stylesheet" href="/vendor/reveal.js/dist/reveal.css"/>
+    <link rel="stylesheet" href="/vendor/reveal.js/dist/theme/league.css"/>
+    <link rel="stylesheet" href="/vendor/reveal.js/plugin/highlight/monokai.css"/>
+    <!-- <link rel="stylesheet" href="/assets/css/custom.css"/> -->
+
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <!-- My uib talk includes markdown like this instead -->
+        <!-- <section data-markdown="slides.md"
+          data-separator="^\r?\n---\r?\n$"
+          data-separator-vertical="^\r?\n===\r?\n$"
+          data-separator-notes="^Note:"
+          data-charset="iso-8859-15">
+        </section> -->
+        {{ content }}
+      </div>
+    </div>
+
+    <script src="/vendor/reveal.js/dist/reveal.js"></script>
+    <script src="/vendor/reveal.js/plugin/notes/notes.js"></script>
+    <script src="/vendor/reveal.js/plugin/markdown/markdown.js"></script>
+    <script src="/vendor/reveal.js/plugin/highlight/highlight.js"></script>
+    <script>
+      // More info about initialization & config:
+      // - https://revealjs.com/initialization/
+      // - https://revealjs.com/config/
+      Reveal.initialize({
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [ RevealMarkdown ],  // [ RevealHighlight, RevealNotes ]
+        // The "normal" size of the presentation, aspect ratio will be
+        // preserved when the presentation is scaled to fit different
+        // resolutions. Can be specified using percentage units.
+        width: 960,
+        height: 720,
+        // margin: 0.04,    // to remain empty around the content
+        // minScale: 0.2,   // smallest possible scale to apply to content
+        // maxScale: 2.0,   // largest possible scale to apply to content
+        // center: false,   // disable vertical centering
+        slideNumber: true,
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+      });
+    </script>
+  </body>
+</html>
