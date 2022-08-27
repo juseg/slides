@@ -1,0 +1,31 @@
+/* title slide */
+.reveal .titlebox {
+    position: absolute; bottom: 0; left: 1em; text-align: left; padding: 1em;
+    background-color: rgba(255, 255, 255, 0.667); color: #333}
+.reveal h1 {
+    font-size: var(--r-heading3-size); text-shadow: 0 0 1em #fff}
+
+/* iframe margin as image */
+.reveal iframe {margin: var(--r-block-margin) 0}
+
+/* columns */
+.multicol{display: flex}
+.column{flex: 1; vertical-align: middle}
+
+/* caption */
+section[data-background-image] {width: 100%; height: 100%}
+section[data-background-image] h3 {position: absolute; bottom: 0; left: 1em}
+
+/* matplotlib colors */
+.tabblue {background: #1f77b4}
+.taborange {background: #ff7f0e}
+.tabgreen {background: #2ca02c}
+.tabred {background: #d62728}
+.tabpurple {background: #9467bd}
+.tabbrown {background: #8c564b}
+.tabpink {background: #e377c2}
+.tabgray {background: #7f7f7f}
+.tabolive {background: #bcbd22}
+.tabcyan {background: #17becf}
+.tabblack {background: #000000}
+.tabwhite {background: #ffffff}
