@@ -70,7 +70,7 @@ Mémoire de glace
 
 ### 2022: going global
 
-<img src="../assets/figures/worldmap_2.png">
+<img src="../assets/figures/worldmap_paleoglaciers.png">
 
 Note: Sea level equivalents
 - Antarctica: 58.3 m s.l.e. (Fretwell et al., 2013)
