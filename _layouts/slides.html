@@ -35,7 +35,9 @@
       // - https://revealjs.com/config/
       Reveal.initialize({
         // Learn about plugins: https://revealjs.com/plugins/
-        plugins: [ RevealMarkdown ],  // [ RevealHighlight, RevealNotes ]
+        plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ],
+        // Convert ascii dashes, quotes and ellipses to html
+        markdown: {smartypants: true},
         // The "normal" size of the presentation, aspect ratio will be
         // preserved when the presentation is scaled to fit different
         // resolutions. Can be specified using percentage units.
