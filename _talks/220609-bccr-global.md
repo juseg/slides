@@ -33,7 +33,7 @@ BIO, UiB & BCCR
 
 ### Biome connectivity
 
-<img src="../../figures/cartoon-biome-connectivity.svg" width="540px"/>
+<img src="../assets/figures/cartoon-biome-connectivity.svg" width="540px"/>
 
 ---
 
