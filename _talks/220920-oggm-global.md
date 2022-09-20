@@ -14,7 +14,7 @@ layout: slides
 
 &nbsp;
 
-[Julien Seguinot](https://juseg.github.io) & Suzette Flantua, 19 Sep. 2022.
+[Julien Seguinot](https://juseg.github.io) & Suzette Flantua, 20 Sep. 2022.
 
 <!-- Trond Mohn Foundation <br> BIO, UiB & BCCR -->
 
@@ -28,7 +28,8 @@ layout: slides
 
 ### Hyoga plotting library
 
-<iframe data-src="https://hyoga.readthedocs.io" width="1040" height="540"></iframe>
+<iframe data-src="https://hyoga.readthedocs.io/en/latest"
+        width="1040" height="540"></iframe>
 
 ---
 
