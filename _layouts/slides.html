@@ -26,16 +26,18 @@
     </div>
 
     <script src="{{ "/vendor/reveal.js/dist/reveal.js" | relative_url }}"></script>
-    <script src="{{ "/vendor/reveal.js/plugin/notes/notes.js" | relative_url }}"></script>
     <script src="{{ "/vendor/reveal.js/plugin/markdown/markdown.js" | relative_url }}"></script>
     <script src="{{ "/vendor/reveal.js/plugin/highlight/highlight.js" | relative_url }}"></script>
+    <script src="{{ "/vendor/reveal.js/plugin/notes/notes.js" | relative_url }}"></script>
+    <script src="{{ "/vendor/reveal.js/plugin/math/math.js" | relative_url }}"></script>
     <script>
       // More info about initialization & config:
       // - https://revealjs.com/initialization/
       // - https://revealjs.com/config/
       Reveal.initialize({
         // Learn about plugins: https://revealjs.com/plugins/
-        plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ],
+        plugins: [
+            RevealMarkdown, RevealHighlight, RevealNotes, RevealMath.KaTeX ],
         // Convert ascii dashes, quotes and ellipses to html
         markdown: {smartypants: true},
         // The "normal" size of the presentation, aspect ratio will be
