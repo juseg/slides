@@ -9,51 +9,28 @@
     <link rel="stylesheet" href="{{ "/vendor/reveal.js/dist/theme/moon.css" | relative_url }}"/>
     <link rel="stylesheet" href="{{ "/vendor/reveal.js/plugin/highlight/monokai.css" | relative_url }}"/>
     <link rel="stylesheet" href="{{ "/assets/css/custom.css" | relative_url }}"/>
-
   </head>
   <body>
     <div class="reveal">
       <div class="slides">
-        <!-- My uib talk includes markdown like this instead -->
-        <!-- <section data-markdown="slides.md"
-          data-separator="^\r?\n---\r?\n$"
-          data-separator-vertical="^\r?\n===\r?\n$"
-          data-separator-notes="^Note:"
-          data-charset="iso-8859-15">
-        </section> -->
         {{ content }}
       </div>
     </div>
-
     <script src="{{ "/vendor/reveal.js/dist/reveal.js" | relative_url }}"></script>
     <script src="{{ "/vendor/reveal.js/plugin/markdown/markdown.js" | relative_url }}"></script>
     <script src="{{ "/vendor/reveal.js/plugin/highlight/highlight.js" | relative_url }}"></script>
     <script src="{{ "/vendor/reveal.js/plugin/notes/notes.js" | relative_url }}"></script>
     <script src="{{ "/vendor/reveal.js/plugin/math/math.js" | relative_url }}"></script>
     <script>
-      // More info about initialization & config:
-      // - https://revealjs.com/initialization/
-      // - https://revealjs.com/config/
       Reveal.initialize({
-        // Learn about plugins: https://revealjs.com/plugins/
         plugins: [
             RevealMarkdown, RevealHighlight, RevealNotes, RevealMath.KaTeX ],
-        // Convert ascii dashes, quotes and ellipses to html
-        markdown: {smartypants: true},
-        // The "normal" size of the presentation, aspect ratio will be
-        // preserved when the presentation is scaled to fit different
-        // resolutions. Can be specified using percentage units.
-        width: 960,
-        height: 720,
-        // margin: 0.04,    // to remain empty around the content
-        // minScale: 0.2,   // smallest possible scale to apply to content
-        // maxScale: 2.0,   // largest possible scale to apply to content
-        // center: false,   // disable vertical centering
+        markdown: {smartypants: true}, // convert dashes, quotes, ellipses
+        width: 960,                 // fixed aspect ratio (use % for relative)
+        height: 720,                // fixed aspect ratio (use % for relative)
         slideNumber: 'c/t',         // slide number over total number
         hashOneBasedIndex: true,    // url matches number on the screen
-        // Add the current slide number to the URL hash so that reloading the
-        // page/copying the URL will return you to the same slide
-        hash: true,
+        hash: true,                 // current slide number in url hash
       });
     </script>
   </body>
