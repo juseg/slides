@@ -1,9 +1,15 @@
+/* matplotlib colors */
+:root {
+    --tab-blue: #1f77b4; --tab-orange: #ff7f0e; --tab-green: #2ca02c;
+    --tab-red: #d62728; --tab-purple: #9467bd; --tab-brown: #8c564b;
+    --tab-pink: #e377c2; --tab-gray: #7f7f7f; --tab-olive: #bcbd22;
+    --tab-cyan: #17becf; --tab-black: #000000; --tab-white: #ffffff}
+
 /* title slide */
 .reveal .titlebox {
-    position: absolute; bottom: 0; left: 1em; text-align: left; padding: 1em;
-    background-color: rgba(255, 255, 255, 0.667); color: #333}
-.reveal h1 {
-    font-size: var(--r-heading3-size); text-shadow: 0 0 1em #fff}
+    background-color: var(--r-background-color); bottom: 0; margin: 1em;
+    padding: 0.5em 1em; position: absolute; text-align: left}
+.reveal h1 {font-size: var(--r-heading3-size)}
 
 /* iframe margin as image */
 .reveal iframe {margin: var(--r-block-margin) 0}
@@ -16,22 +22,40 @@
 section[data-background-iframe],
 section[data-background-image] {width: 100%; height: 100%}
 section[data-background-iframe],
-section[data-background-image] h3 {position: absolute; bottom: 0; left: 1em}
+section[data-background-image] h3 {
+    position: absolute; bottom: 1em; left: 1em;
+    text-shadow: 0 0 1em var(--r-background-color)}
 
 /* more readable code comments */
 .hljs-comment, .hljs-quote, .hljs-deletion, .hljs-meta {
     filter: brightness(125%); font-style: italic}
 
-/* matplotlib colors */
-.tabblue {background: #1f77b4}
-.taborange {background: #ff7f0e}
-.tabgreen {background: #2ca02c}
-.tabred {background: #d62728}
-.tabpurple {background: #9467bd}
-.tabbrown {background: #8c564b}
-.tabpink {background: #e377c2}
-.tabgray {background: #7f7f7f}
-.tabolive {background: #bcbd22}
-.tabcyan {background: #17becf}
-.tabblack {background: #000000}
-.tabwhite {background: #ffffff}
+/* text colors */
+.blue {color: var(--tab-blue)}
+.orange {color: var(--tab-orange)}
+.green {color: var(--tab-green)}
+.red {color: var(--tab-red)}
+.purple {color: var(--tab-purple)}
+.brown {color: var(--tab-brown)}
+.pink {color: var(--tab-pink)}
+.gray {color: var(--tab-gray)}
+.olive {color: var(--tab-olive)}
+.cyan {color: var(--tab-cyan)}
+.black {color: var(--tab-black)}
+.white {color: var(--tab-white)}
+
+/* color boxes */
+.reveal .flex {
+    display: flex; align-items: center; justify-content: center}
+.reveal .box {
+    border: 2px solid; border-radius: 1ex; margin: 0.25em; padding: 0.5em}
+.reveal .small {font-size: 0.75em}
+
+/* credit */
+.reveal .credit {
+    background: #ffffff80; bottom: 0; color: #404040; font-size: 0.5em;
+    margin: 0; padding: 0.5em; position: absolute}
+/* delayed slide-up */
+/* .reveal .future .credit {transform: translate(0,100%)} */
+/* .reveal .present .credit {transform: translate(0,0)} */
+/* .reveal .credit {transition: .2s .8s} */
