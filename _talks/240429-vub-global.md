@@ -88,9 +88,14 @@ photo: [2012](https://www.flickr.com/photos/pyjeo/49298982311/)
 
 <!-- .slide: data-background-image="https://www.glaciers-climat.com/wp-content/uploads/LGM-Alpes-Glaciers-Web.jpeg" -->
 
-Figure: [S. Coutterand, 2023](
+Figure: [S. Coutterand, 2024](
     https://www.glaciers-climat.com/cg/le-quaternaire-dans-les-alpes/)
 <!-- .element: class="credit" -->
+
+::: We know the LGM state in detail.
+- We also have dates for several glaciers.
+- There may be differences in the timing.
+- What came before and after is less known.
 
 ---
 
@@ -98,29 +103,20 @@ Figure: [S. Coutterand, 2023](
 
 - What glacial **history** lead to LGM,
 - was ice **flow** controlled by topography,
-- were there differences in **timing**,
+- what caused differences in **timing**,
 - how high above trimlines was the **surface**, and
 - where was glacier **erosion** significant?
 
 ~
 
-Tool: **Parallel** Ice Sheet Model (PISM) <br><small>
- (3D energy balance, polythermal SIA, pseudo-plastic till SSA, <br>
- PDD mass balance, viscous-modulated bedrock deformation) </small>
+Tool: **Parallel** Ice Sheet Model ([PISM](https://pism.io)) <br><small>
+ (3D enthalpy balance, polythermal SIA, pseudo-plastic till SSA, <br>
+ PDD mass balance, bedrock heat diffusion, viscoelastic lithosphere) </small>
 <!-- .element class="fragment" -->
 
 Method: simulation of the **last glacial cycle** <br><small>
  (120--0 ka, 1x1 km x 20 m, 576 processors, 33 days) </small>
 <!-- .element class="fragment" -->
-
-<!-- ### Parallel ice sheet model -->
-<!-- - Shallow Shelf Approximation on pseudo-pastic till -->
-<!-- - Polythermal Shallow Ice Approximation -->
-<!-- - Viscous-modulated elastic lithosphere -->
-<!-- - Bedrock temperature model to 3 km depth -->
-<!-- - Snow precipitation before 0--2 $^\circ$C -->
-<!-- - Weekly resolved positive Degree Day melt model -->
-<!-- After: PISM documentation (https://pism.io). -->
 
 ---
 
@@ -190,6 +186,11 @@ Please download & re-use!
 <div class="r-stack">
   <img src="../assets/figures/worldmap_paleoglaciers.png">
 </div>
+
+::: How to do this globally:
+- Not so much so for the continental ice sheets.
+- But for the many less-studied mountain ranges.
+- Also in Patagonia, New Zealand, Tasmania, etc.
 
 ---
 
@@ -287,7 +288,7 @@ xarray.open_dataset('out.nc').hyoga.plot.ice_margin()
 
 ### Online documentation
 
-<iframe data-src="https://hyoga.readthedocs.io" width="960" height="540"></iframe>
+<iframe data-src="https://hyoga.io/en/stable/examples/index.html#interpolation" width="960" height="540"></iframe>
 
 ---
 
