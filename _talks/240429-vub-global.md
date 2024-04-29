@@ -33,7 +33,7 @@ Photo: [2017](https://www.flickr.com/photos/pyjeo/53678099600/)
 
 ---
 
-### About me
+### My first paleoglacier
 
 <div class="multicol">
   <div class="column">
@@ -52,22 +52,6 @@ Photo: [2017](https://www.flickr.com/photos/pyjeo/53678099600/)
 
 ---
 
-### Glaciers past & present
-
-<div class="r-stack">
-  <img src="../assets/figures/worldmap_countries.png">
-  <img src="../assets/figures/worldmap_glaciers.png" class="fragment">
-  <img src="../assets/figures/worldmap_paleoglaciers.png" class="fragment">
-  <img src="../assets/figures/worldmap_workplaces.png" class="fragment">
-</div>
-
-::: Sea level equivalents:
-- Antarctica: 58.3 m s.l.e. (Fretwell et al., 2013)
-- Greenland: 7.3 m s.l.e. (Bamber et al., 2013)
-- Additional 120 to 135 m s.l.e. (Clark and Mix, 2002)
-
----
-
 ### Tuya Lake, CA
 
 <!-- .slide: data-background-image="https://live.staticflickr.com/65535/49298982311_52f533df57_k.jpg" -->
@@ -83,13 +67,19 @@ photo: [2012](https://www.flickr.com/photos/pyjeo/49298982311/)
 
 ---
 
-### Bowdoin Glacier, GL
+### The Last Glacial Maximum
 
-<!-- .slide: data-background-image="https://live.staticflickr.com/65535/49298829236_2546afe01d_k.jpg" -->
+<div class="r-stack">
+  <img src="../assets/figures/worldmap_countries.png">
+  <img src="../assets/figures/worldmap_glaciers.png" class="fragment">
+  <img src="../assets/figures/worldmap_paleoglaciers.png" class="fragment">
+  <img src="../assets/figures/worldmap_workplaces.png" class="fragment">
+</div>
 
-Photo: [2015](
-    https://www.flickr.com/photos/pyjeo/49298829236/)
-<!-- .element: class="credit" -->
+::: Sea level equivalents:
+- Antarctica: 58.3 m s.l.e. (Fretwell et al., 2013)
+- Greenland: 7.3 m s.l.e. (Bamber et al., 2013)
+- Additional 120 to 135 m s.l.e. (Clark and Mix, 2002)
 
 ---
 
@@ -104,21 +94,11 @@ Figure: [S. Coutterand, 2023](
 
 ---
 
-### Kluane ice field
-
-<!-- .slide: data-background-image="https://live.staticflickr.com/8560/28938896344_afcf0c23c1_o.jpg" -->
-
-Photo: [R. Droker, 2013](
-    https://www.flickr.com/photos/29750062@N06/28938896344/)
-<!-- .element: class="credit" -->
-
----
-
 ### Open questions
 
 - What glacial **history** lead to LGM,
 - was ice **flow** controlled by topography,
-- what caused differences in **timing**,
+- were there differences in **timing**,
 - how high above trimlines was the **surface**, and
 - where was glacier **erosion** significant?
 
@@ -205,6 +185,14 @@ Please download & re-use!
 
 ---
 
+### Going global
+
+<div class="r-stack">
+  <img src="../assets/figures/worldmap_paleoglaciers.png">
+</div>
+
+---
+
 <!-- .slide: data-auto-animate -->
 ### Alps modelling workflow
 
@@ -244,14 +232,6 @@ Please download & re-use!
   <div class='box' data-id='pdf'>.pdf</div>
   <div class='box' data-id='mp4'>.mp4</div>
  </div>
-</div>
-
----
-
-### Going global
-
-<div class="r-stack">
-  <img src="../assets/figures/worldmap_paleoglaciers.png">
 </div>
 
 ---
