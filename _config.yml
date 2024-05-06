@@ -5,6 +5,7 @@ title: Slides
 description: Slides for my talks.
 url: https://juseg.github.io
 baseurl: /slides
+future: true
 
 # build settings
 collections:
