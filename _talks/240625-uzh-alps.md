@@ -37,16 +37,8 @@ K        | l        | Reference
 -------- | -------- | -----------
 1e-4     | 1        | [Humphrey & Raymond (1994)](https://doi.org/10.3189/s0022143000012429)
 2.7e-7   | 2.02     | [Herman et al. (2015)](https://doi.org/10.1126/science.aab2386)
-5.2e-11  | 2.34     | [Koppes et al. (2015)](https://doi.org/10.1038/nature15385)
+5.2e-11  | 2.34     | [Koppes et al. (2015)](https://doi.org/10.1038/nature15385) <strong class="fragment">< today</span>
 1.665e-4 | 0.6459   | [Cook et al. (2020)](https://doi.org/10.1038/s41467-020-14583-8)
-
-<!-- .element: class="fragment" -->
-
----
-
-### Cumulative erosion potential
-
-![alpero-f01](https://esurf.copernicus.org/articles/9/923/2021/esurf-9-923-2021-f01-web.png) <!-- .element: height="540" -->
 
 ---
 
@@ -54,6 +46,12 @@ K        | l        | Reference
 <!-- .element: style="display: none" -->
 
 <!-- .slide: data-background-iframe="https://player.vimeo.com/video/503162771?autoplay=1&loop=1&color=ffffff&title=0&byline=0&portrait=0" -->
+
+---
+
+### Cumulative erosion potential
+
+![alpero-f01](https://esurf.copernicus.org/articles/9/923/2021/esurf-9-923-2021-f01-web.png) <!-- .element: height="540" -->
 
 ---
 
@@ -67,6 +65,12 @@ K        | l        | Reference
 ### Potential erosion volumes
 
 ![alpero-f02](https://esurf.copernicus.org/articles/9/923/2021/esurf-9-923-2021-f02-web.png) <!-- .element: height="540" -->
+
+---
+
+### Climate control on erosion
+
+![alpero-f07](https://esurf.copernicus.org/articles/9/923/2021/esurf-9-923-2021-f07-web.png) <!-- .element: height="540" -->
 
 ---
 
@@ -89,29 +93,19 @@ K        | l        | Reference
 
 ---
 
-### Climate control on erosion
-
-![alpero-f07](https://esurf.copernicus.org/articles/9/923/2021/esurf-9-923-2021-f07-web.png) <!-- .element: height="540" -->
-
----
-
 ### Conclusions
 
 - Very strong localization of rapid erosion.
-- Gravitational drag speeds up deglacial erosion.
+- Gravity accelerates erosion during ice retreat.
 - Erosion slowdown counterbalances ice expansion.
-- Rapid erosion migrates along valleys with climate.
-- Varied glacial stages formed the Alpine landscape.
+- Rapid erosion migrates with glacier fluctuations.
+- Alpine landscape carved in varied glacial stages.
 
 ![alpero-f08](https://esurf.copernicus.org/articles/9/923/2021/esurf-9-923-2021-f08-web.jpg)
 
 ---
 
-### More on the Alps
-
-- J. Seguinot, S. Ivy-Ochs, G. Jouvet, M. Huss, M. Funk, and F. Preusser.
-  Modelling last glacial cycle ice dynamics in the Alps.
-  [The Cryosphere](https://doi.org/10.5194/tc-12-3265-2018), 2018.
+### More on glacial erosion
 
 - J. Seguinot and I. Delaney.
   Last-glacial-cycle glacier erosion potential in the Alps.
@@ -123,8 +117,6 @@ K        | l        | Reference
    [erosion](https://doi.org/10.5281/zenodo.4495418))
 
 https://juseg.dev/publications/
-
-Please download & re-use!
 
 ---
 
@@ -198,6 +190,7 @@ Please download & re-use!
 ---
 
 
+<!-- .slide: data-visibility="uncounted" -->
 ### Hyoga paleoglacier modelling framework
 
 ```python [4-7|9-11|13-14|16-17]
@@ -224,24 +217,18 @@ xarray.open_dataset('out.nc').hyoga.plot.ice_margin()
 
 ### Online documentation
 
-<iframe data-src="https://hyoga.io/en/stable/examples/index.html#interpolation" width="960" height="540"></iframe>
+<iframe data-src="https://hyoga.io" width="960" height="540"></iframe>
 
 ---
 
-### Modelling domains
+### Made on Anafi <!-- .element style="top: 1em" -->
 
-![Hyoga domains](https://hyoga.readthedocs.io/en/world/_images/sphx_glr_plot_modelling_domains_001.png)
+<!-- .slide: data-background-image="https://live.staticflickr.com/65535/53812749789_bc7d5994b9_k.jpg" -->
 
----
+![EGU](https://www.earth-surface-dynamics.net/graphic_egu_logo_white.png)
+![Copernicus](https://www.earth-surface-dynamics.net/template_logo_copernicus_publications_177x22_white.png)
 
-<!-- FIXME thank Anafi -->
-
-### Thank you <!-- .element style="top: 1em" -->
-
-<!-- .slide: data-background-image="" -->
-
-Photo: Anafi, GR, [2021](https://www.flickr.com/photos/pyjeo/49298829236/)
-<!-- .element: class="credit" -->
+<!-- .element style="float:right; margin-top: 1em; height: var(--r-heading3-size)" -->
 
 ---
 
@@ -293,7 +280,6 @@ Method: simulation of the **last glacial cycle** <br><small>
 
 <!-- Data: Dansgaard et al., 1993; Jouzel et al., 2007; Martrat et al., 2007 -->
 
-
 ---
 
 <!-- .slide: data-visibility="uncounted" -->
@@ -307,6 +293,13 @@ Method: simulation of the **last glacial cycle** <br><small>
 ### Sensitivity to erosion law
 
 ![alpero-f06](https://esurf.copernicus.org/articles/9/923/2021/esurf-9-923-2021-f06-web.png) <!-- .element: height="540" -->
+
+---
+
+<!-- .slide: data-visibility="uncounted" -->
+### Modelling domains
+
+![Hyoga domains](https://hyoga.readthedocs.io/en/world/_images/sphx_glr_plot_modelling_domains_001.png)
 
 <!-- can't be moved to template -->
 </textarea>
