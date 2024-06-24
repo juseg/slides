@@ -46,7 +46,7 @@ section[data-background-image] h3 {
 
 /* color boxes */
 .reveal .flex {
-    display: flex; align-items: center; justify-content: center}
+    display: flex; align-items: center; justify-content: space-around}
 .reveal .box {
     border: 2px solid; border-radius: 1ex; margin: 0.25em; padding: 0.5em}
 .reveal .small {font-size: 0.75em}
