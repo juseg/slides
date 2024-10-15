@@ -1,7 +1,7 @@
 ---
 date: 2024-10-15
-title: Mountain paleoglacier modelling beyond the Alps
-description: From the Alps to global mountains
+title: Mountain glaciers in a -4.8°C world
+description: Short presentation for ICCI visitors
 author: Julien Seguinot
 layout: slides
 ---
@@ -10,26 +10,10 @@ layout: slides
 <section data-markdown data-separator-notes="^:::">
 <textarea data-template>
 
-<!-- .slide:
-  data-background-image="https://live.staticflickr.com/65535/53678099600_2d9af5dcc9_k.jpg" -->
+# Mountain glaciers in a -4.8°C world
 
-<div class="titlebox fragment fade-out" data-fragment-index="1" >
-
-**Mountain paleoglacier modelling beyond the Alps**,
-[J. Seguinot](https://juseg.dev), VUB, 15 Oct 2024.
-
-</div>
-
-### Gorner Glacier, CH
-<!-- .element: class="fragment" data-fragment-index="1" -->
-
-Photo: [2017](https://www.flickr.com/photos/pyjeo/53678099600/)
-<!-- .element: class="credit fragment" data-fragment-index="1" -->
-
-::: An active deglaciation landscape in the Alps:
-- Gorner Glacier has recently become two glaciers.
-- I want you to look at the Little Ice Age moraines.
-- The landscape record is sparse in time and space.
+[J. Seguinot](https://juseg.dev) & the paleo-gang, <br>
+VUB, 15 Oct 2024.
 
 ---
 
@@ -63,12 +47,16 @@ Glacier Garden Museum Lucerne &#169;
   <img src="../assets/figures/worldmap_paleoglaciers.png" class="fragment">
 </div>
 
--4.8°C ?
-<!-- .element: class="blue fragment" style="bottom: 0; margin: 0; padding: 1em 2em; position: absolute; font-size: 2em" -->
+<div>
+  <span style="font-size: 1.5em">-4.8±2.5°C</span></br>
+  <span style="font-size: 0.75em">(Kageyama et al., 2021)</span>
+</div>
+
+<!-- .element: class="blue fragment" style="bottom: 0; margin: 0; padding: 2em 3em; position: absolute" -->
 
 ---
 
-### Glacial inception map
+### A glacial inception map
 
 <div class="r-stack r-stretch">
   <img src="../assets/figures/glopdd_world_cw5e5.png">
