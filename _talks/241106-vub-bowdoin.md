@@ -30,23 +30,13 @@ VUB, 06 Nov 2024.
 
 ---
 
-### Colleagues for scale
+### Videos for scale
 
-<!-- .slide: data-background-iframe="https://flickr.com/photos/snsf_image_competition/49724736328/" -->
+- View from the ice: [E. van Dongen, 2017](
+    https://flickr.com/photos/snsf_image_competition/49724736328/)
 
-<small>Video: [E. van Dongen, 2017](
-    https://flickr.com/photos/snsf_image_competition/49724736328/)</small>
-
----
-
-### View from the fjord  <!-- .element: style="display: none" -->
-
-<!-- .slide: data-background-video="https://live.staticflickr.com/video/40630777905/ee55a06c9b/1080p.mp4?s=eyJpIjo0MDYzMDc3NzkwNSwiZSI6MTczMDgyNzM3MCwicyI6ImRmZWEzNTBmMjQ1MzkyMjkzYjRkYmRmYTM3ZmM2ODI2ZWJmN2RhYjMiLCJ2IjoxfQ" -->
-
-Video: [L. Preiswerk, 2017](
+- View from the fjord: [L. Preiswerk, 2017](
     https://flickr.com/photos/snsf_image_competition/40811455004/)
-
-<!-- .element: class="credit" -->
 
 ---
 
