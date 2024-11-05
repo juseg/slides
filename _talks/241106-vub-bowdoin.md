@@ -32,19 +32,21 @@ VUB, 06 Nov 2024.
 
 ### Colleagues for scale
 
-<div><video autoplay controls loop src="https://live.staticflickr.com/video/49724736328/1a099e7c08/1080p.mp4?s=eyJpIjo0OTcyNDczNjMyOCwiZSI6MTczMDgyNzE2MywicyI6Ijk0MDQ0Mjc0MDgzZjkwNWQ5YzllYjQzYmQwZTg0MDNlMTE0ZGRiMjYiLCJ2IjoxfQ"></div>
+<!-- .slide: data-background-iframe="https://flickr.com/photos/snsf_image_competition/49724736328/" -->
 
 <small>Video: [E. van Dongen, 2017](
-    https://flickr.com/photos/snsf_image_competition/40811455004/)</small>
+    https://flickr.com/photos/snsf_image_competition/49724736328/)</small>
 
 ---
 
-### View from the fjord
+### View from the fjord  <!-- .element: style="display: none" -->
 
-<div><video autoplay controls loop src="https://live.staticflickr.com/video/40630777905/ee55a06c9b/1080p.mp4?s=eyJpIjo0MDYzMDc3NzkwNSwiZSI6MTczMDgyNzM3MCwicyI6ImRmZWEzNTBmMjQ1MzkyMjkzYjRkYmRmYTM3ZmM2ODI2ZWJmN2RhYjMiLCJ2IjoxfQ"></div>
+<!-- .slide: data-background-video="https://live.staticflickr.com/video/40630777905/ee55a06c9b/1080p.mp4?s=eyJpIjo0MDYzMDc3NzkwNSwiZSI6MTczMDgyNzM3MCwicyI6ImRmZWEzNTBmMjQ1MzkyMjkzYjRkYmRmYTM3ZmM2ODI2ZWJmN2RhYjMiLCJ2IjoxfQ" -->
 
-<small>Video: [L. Preiswerk, 2017](
-    https://flickr.com/photos/snsf_image_competition/40811455004/)</small>
+Video: [L. Preiswerk, 2017](
+    https://flickr.com/photos/snsf_image_competition/40811455004/)
+
+<!-- .element: class="credit" -->
 
 ---
 
