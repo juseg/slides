@@ -36,11 +36,11 @@ layout: slides
 ### Glaciers past and present
 
 <div class="r-stack r-stretch">
-  <img src="figures/worldmap_0.png">
-  <img src="figures/worldmap_1.png" class="fragment">
-  <img src="figures/worldmap_2.png" class="fragment">
-  <img src="figures/worldmap_3.png" class="fragment">
-  <img src="figures/worldmap_4.png" class="fragment">
+  <img src="figures/worldmap_countries.png">
+  <img src="figures/worldmap_glaciers.png" class="fragment">
+  <img src="figures/worldmap_paleoglaciers.png" class="fragment">
+  <img src="figures/worldmap_studyareas.png" class="fragment">
+  <img src="figures/worldmap_workplaces.png" class="fragment">
 </div>
 
 <!-- sea level equivalents
