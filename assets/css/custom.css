@@ -59,3 +59,9 @@ section[data-background-image] h3 {
 /* .reveal .future .credit {transform: translate(0,100%)} */
 /* .reveal .present .credit {transform: translate(0,0)} */
 /* .reveal .credit {transition: .2s .8s} */
+
+/* more space around images */
+.reveal img, .reveal video, .reveal iframe {
+  max-width: 90%;
+  max-height: 90%;
+}
