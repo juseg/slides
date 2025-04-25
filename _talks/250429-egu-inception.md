@@ -23,10 +23,19 @@ EGU, 29 Apr 2025.
 
 ---
 
-### Alpine glaciation
-<!-- .element: style="display: none" -->
+### Glaciers and paleoglaciers
 
-<!-- .slide: data-background-iframe="https://player.vimeo.com/video/294517816?autoplay=1&loop=1&color=ffffff&title=0&byline=0&portrait=0#t=100s" -->
+<div class="r-stack">
+  <img src="../assets/figures/worldmap_glaciers.png">
+  <img src="../assets/figures/worldmap_paleoglaciers.png" class="fragment">
+</div>
+
+<div>
+  <span style="font-size: 1.5em">-4.8±2.5°C</span></br>
+  <span style="font-size: 0.75em">(Kageyama et al., 2021)</span>
+</div>
+
+<!-- .element: class="blue fragment" style="bottom: 0; margin: 0; padding: 2em 3em; position: absolute" -->
 
 ---
 
