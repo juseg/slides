@@ -95,6 +95,13 @@ See also poster **EGU25-6672** by Van Cappellen et al.
   </div>
   <div class="column">
     <p>(but glaciers from the Alps would flow here first)</p>
+    <div style="background: white; display: flex; justify-content: space-around; padding: 0.5em 1em">
+      <img height="100px" src="../assets/logos/logo_fwo.png">
+      <img height="120px" src="../assets/logos/logo_egu_plain_blue.png">
+    </div>
+    <div style="background: white; padding: 0.5em 1em">
+      <img src="../assets/logos/logo_bglacier.png">
+    </div>
   </div>
 </div>
 
