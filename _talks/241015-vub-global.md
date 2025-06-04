@@ -62,7 +62,7 @@ Glacier Garden Museum Lucerne &#169;
   <img src="../assets/figures/glopdd_world_cw5e5.png">
   <img src="../assets/figures/glopdd_local_cw5e5.png" class="fragment">
   <img src="../assets/figures/glopdd_belux_cw5e5.png" class="fragment">
-</div/
+</div>
 
 <!-- .element: class="credit" -->
 <!-- can't be moved to template -->
