@@ -5,8 +5,7 @@
 source "https://rubygems.org"
 
 gem "github-pages", group: :jekyll_plugins
-gem "webrick"  # https://github.com/jekyll/jekyll/issues/8523
-gem "json"  # appears needed on a fresh install Apr 2024
+gem "erb"  # appears needed on a fresh install Jun 2025
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
