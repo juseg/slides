@@ -4,9 +4,9 @@
 
 import os.path
 import zipfile
+import hyoga
 import matplotlib.pyplot as plt
 import cartopy
-import hyoga.demo
 
 
 def add_countries(ax, scale=None, **kwargs):
@@ -158,7 +158,9 @@ def main():
     fig.savefig(__file__[:-3]+'_glaciers')
 
     # add paleoglaciers
-    add_paleoglaciers(ax=ax, alpha=0.5, facecolor='tab:blue', zorder=1)
+    crs = '+proj=ortho +lon_0=0 +lat_0=60'
+    hyoga.open.paleoglaciers().to_crs(crs).plot(
+        ax=ax, alpha=0.5, facecolor='tab:blue', zorder=1)
     fig.savefig(__file__[:-3]+'_paleoglaciers')
 
     # add study areas
