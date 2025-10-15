@@ -115,22 +115,26 @@ def add_workplaces(ax, **kwargs):
         'Sapporo':   (141.35, 43.07),
         '':          (  8.54, 47.37),
         'Anafi':     ( 25.80, 36.37),
-        'Bergen':    (  5.33, 60.39)}
+        'Bergen':    (  5.33, 60.39),
+        'Brussels':  (  4.35, 50.85)}
     lon, lat = zip(*workplaces.values())
     proj = cartopy.crs.Geodetic()
-    ax.plot(lon, lat, color='0.25', marker='*', ms=8,
-            transform=proj)
+    ax.plot(lon, lat, color='0.25', marker='*', ms=8, transform=proj)
+    ax.plot(
+        lon[-1], lat[-1], marker='o', mec='0.25', mew=2, mfc='none', ms=12,
+        transform=proj)
 
     # add text labels
     for name, (lon, lat) in workplaces.items():
         xtext = (8 if (lon > 10) and (lon < 90) else -8)
+        ytext = (8 if name == 'Brussels' else 0)
         ax.annotate(
             name,
-            xy=(lon, lat), xytext=(xtext, 0),
+            xy=(lon, lat), xytext=(xtext, ytext),
             xycoords=proj._as_mpl_transform(ax), textcoords='offset points',
             ha=('left' if xtext > 0 else 'right'), va='center',
-            color='0.25', fontweight='bold'
-            )
+            color='0.25', fontweight='bold')
+
 
 def main():
     """Main program called during execution."""
