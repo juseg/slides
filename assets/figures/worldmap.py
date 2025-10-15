@@ -103,6 +103,7 @@ def add_study_areas(ax, **kwargs):
 
 
 def add_workplaces(ax, **kwargs):
+    # IDEA use GeoDataFrame.to_crs() and plot midpoint arrows
     ax = ax or plt.gca()
     workplaces = {
         'Lille':     (  3.06, 50.63),
@@ -153,6 +154,7 @@ def main():
     ax.set_ylim((-3.2e6, 6.4e6))
 
     # add land mask
+    # FIXME hyoga.open.natural_earth().to_crs() fills are buggy on ortho proj.
     add_countries(ax=ax, alpha=0.25, facecolor='k', scale='110m')
     fig.savefig(__file__[:-3]+'_countries')
 
