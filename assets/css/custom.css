@@ -13,6 +13,7 @@
 
 /* iframe margin as image */
 .reveal iframe {margin: var(--r-block-margin) 0}
+.reveal .slide-background-content > iframe {margin: 0}
 
 /* columns */
 .multicol{display: flex}
