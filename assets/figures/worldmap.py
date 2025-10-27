@@ -4,9 +4,9 @@
 
 import os.path
 import zipfile
+import hyoga
 import matplotlib.pyplot as plt
 import cartopy
-import hyoga.demo
 
 
 def add_countries(ax, scale=None, **kwargs):
@@ -103,6 +103,7 @@ def add_study_areas(ax, **kwargs):
 
 
 def add_workplaces(ax, **kwargs):
+    # IDEA use GeoDataFrame.to_crs() and plot midpoint arrows
     ax = ax or plt.gca()
     workplaces = {
         'Lille':     (  3.06, 50.63),
@@ -115,22 +116,26 @@ def add_workplaces(ax, **kwargs):
         'Sapporo':   (141.35, 43.07),
         '':          (  8.54, 47.37),
         'Anafi':     ( 25.80, 36.37),
-        'Bergen':    (  5.33, 60.39)}
+        'Bergen':    (  5.33, 60.39),
+        'Brussels':  (  4.35, 50.85)}
     lon, lat = zip(*workplaces.values())
     proj = cartopy.crs.Geodetic()
-    ax.plot(lon, lat, color='0.25', marker='*', ms=8,
-            transform=proj)
+    ax.plot(lon, lat, color='0.25', marker='*', ms=8, transform=proj)
+    ax.plot(
+        lon[-1], lat[-1], marker='o', mec='0.25', mew=2, mfc='none', ms=12,
+        transform=proj)
 
     # add text labels
     for name, (lon, lat) in workplaces.items():
         xtext = (8 if (lon > 10) and (lon < 90) else -8)
+        ytext = (8 if name == 'Brussels' else 0)
         ax.annotate(
             name,
-            xy=(lon, lat), xytext=(xtext, 0),
+            xy=(lon, lat), xytext=(xtext, ytext),
             xycoords=proj._as_mpl_transform(ax), textcoords='offset points',
             ha=('left' if xtext > 0 else 'right'), va='center',
-            color='0.25', fontweight='bold'
-            )
+            color='0.25', fontweight='bold')
+
 
 def main():
     """Main program called during execution."""
@@ -149,6 +154,7 @@ def main():
     ax.set_ylim((-3.2e6, 6.4e6))
 
     # add land mask
+    # FIXME hyoga.open.natural_earth().to_crs() fills are buggy on ortho proj.
     add_countries(ax=ax, alpha=0.25, facecolor='k', scale='110m')
     fig.savefig(__file__[:-3]+'_countries')
 
@@ -158,7 +164,9 @@ def main():
     fig.savefig(__file__[:-3]+'_glaciers')
 
     # add paleoglaciers
-    add_paleoglaciers(ax=ax, alpha=0.5, facecolor='tab:blue', zorder=1)
+    crs = '+proj=ortho +lon_0=0 +lat_0=60'
+    hyoga.open.paleoglaciers().to_crs(crs).plot(
+        ax=ax, alpha=0.5, facecolor='tab:blue', zorder=1)
     fig.savefig(__file__[:-3]+'_paleoglaciers')
 
     # add study areas

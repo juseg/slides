@@ -3,7 +3,7 @@
 # site settings
 title: Slides
 description: Slides for my talks.
-url: https://juseg.github.io
+url: https://juseg.dev
 baseurl: /slides
 future: true
 
