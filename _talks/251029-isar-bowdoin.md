@@ -73,7 +73,7 @@ I think so.
 ---
 ### Please come see my poster
 <!-- .slide: data-background-image="https://live.staticflickr.com/65535/54855949773_43d970b093_k.jpg" -->
-<img class="r-stretch" style="float: right" src="../assets/posters/poster-251029-isar8-inception.jpg">
+<img class="r-stretch" style="float: right" src="../assets/figures/poster-251029-isar8-inception.jpg">
 
 ---
 ### Appendix -- rolling-window cross-correlation
