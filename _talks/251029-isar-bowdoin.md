@@ -52,10 +52,6 @@ Harry Zekollari. **Return of the Bowdoin Glacier: measuring the dark side of the
 </div>
 
 ---
-### Rolling-window spectrograms
-<img class="r-stretch" src="../assets/figures/bowstr_specgrams.png">
-
----
 ### Sub-daily filtering
 <div class="r-stack r-stretch">
   <img src="../assets/figures/bowstr_highpass_01.png">
@@ -71,12 +67,25 @@ Harry Zekollari. **Return of the Bowdoin Glacier: measuring the dark side of the
 </div>
 
 ---
-### Rolling-window cross-correlation
+### Can we measure stress in glaciers?
+I think so.
+
+---
+### Please come see my poster
+<!-- .slide: data-background-image="https://live.staticflickr.com/65535/54855949773_43d970b093_k.jpg" -->
+<img class="r-stretch" style="float: right" src="../assets/posters/poster-251029-isar8-inception.jpg">
+
+---
+### Appendix -- rolling-window cross-correlation
 <img class="r-stretch" src="../assets/figures/bowstr_rollcorr.png">
 
 ---
-### Thank you
-<!-- .slide: data-background-image="https://live.staticflickr.com/65535/54855949773_43d970b093_k.jpg" -->
+### Appendix -- rolling-window spectrograms
+<img class="r-stretch" src="../assets/figures/bowstr_specgrams.png">
+
+---
+### Appendix -- wavelet transforms
+<img class="r-stretch" src="../assets/figures/bowstr_wavelets.png">
 
 <!-- can't be moved to template -->
 </textarea>
