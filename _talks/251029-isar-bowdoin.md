@@ -2,7 +2,7 @@
 date: 2025-10-29
 title: Can we measure stress in glaciers?
 description: 8th International Symposium on Arctic Research
-author: Julien Seguinotg, Evgeny A. Podolskiy, Shin Sugiyama, Harry Zekollari
+author: Julien Seguinot, Evgeny A. Podolskiy, Shin Sugiyama, Harry Zekollari
 layout: slides
 ---
 
@@ -14,7 +14,8 @@ layout: slides
 <!-- .slide: data-background-image="https://live.staticflickr.com/65535/49298829236_2546afe01d_k.jpg" -->
 
 [Julien Seguinot](https://juseg.dev), Evgeny A. Podolskiy, Shin Sugiyama,
-Harry Zekollari. **Return of the Bowdoin Glacier: measuring the dark side of the force**. *ISAR-8*, 29 Oct 2025.
+Harry Zekollari. **Return of the Bowdoin Glacier: measuring the dark side of
+the force**. *ISAR-8*, 29 Oct 2025.
 <!-- .element: class="titlebox fragment fade-out" data-fragment-index="1" -->
 
 ::: TODO
@@ -73,11 +74,8 @@ I think so.
 ---
 ### Please come see my poster
 <!-- .slide: data-background-image="https://live.staticflickr.com/65535/54855949773_43d970b093_k.jpg" -->
-<img class="r-stretch" style="float: right" src="../assets/figures/poster-251029-isar8-inception.jpg">
-
----
-### Appendix -- rolling-window cross-correlation
-<img class="r-stretch" src="../assets/figures/bowstr_rollcorr.png">
+<img class="r-stretch" style="float: right"
+  src="../assets/figures/poster-251029-isar8-inception.jpg">
 
 ---
 ### Appendix -- rolling-window spectrograms
@@ -86,6 +84,10 @@ I think so.
 ---
 ### Appendix -- wavelet transforms
 <img class="r-stretch" src="../assets/figures/bowstr_wavelets.png">
+
+---
+### Appendix -- rolling-window cross-correlation
+<img class="r-stretch" src="../assets/figures/bowstr_rollcorr.png">
 
 <!-- can't be moved to template -->
 </textarea>
