@@ -1,6 +1,6 @@
 ---
 date: 2025-12-03
-title: Measuring shear and stress in Bowdoin Glacier Northwest Greenland
+title: Temperature, shear and stress in Bowdoin Glacier Northwest Greenland
 description: seminar at the Taiwan Polar Institute
 author: |
   Julien Seguinot, Evgeny A. Podolsky, Ralf Greve, Shin Sugiyama, and
@@ -175,30 +175,42 @@ Englacial warming indicates deep crevassing in Bowdoin Glacier, Greenland,
 ---
 ### Conclusions on tilt and stress
 
-- Shear deformation explains 5% of observed surface velocity.
+- Tilts
 
-- Tilt rates increase with sliding in summer speed-up events.
+    - Shear deformation explains 5% of observed surface velocity.
 
-- There is a hidden tidal signal in noisy tilt rate data.
+    - Tilt rates increase with sliding in summer speed-up events.
 
-~
+    - There is a hidden tidal signal in noisy tilt rate data.
 
-- Pressure sensors frozen in the ice show clear tidal signal.
+- Stress
 
-- We do not yet have a good interpretation for these data.
+    - Pressure sensors frozen in the ice show clear tidal signal.
 
-- I think we can measure stress in glacier.
+    - We do not yet have a good interpretation for these data.
+
+    - I think we can measure stress in glacier.
 
 ---
 ### Thank you
 
 <div class="multicol">
-    <div style="background: white; padding: 0 1em">
+  <div class="column" style="background: white; padding: 0 1em">
     <img height="270px"
       src="https://hydr.vub.be/media/attachments/HR_6K_7E6A3254_cropped.jpg">
-      <img height="50px" src="../assets/logos/logo_bglacier.png">
-    </div>
-    <p>Glaciers, ice flow, mass balance, hydrology, blue ice, meteorites...</p>
+    <img height="50px" src="../assets/logos/logo_bglacier.png">
+  </div>
+  <div class="column" style="padding: 0 1em">
+
+- **Bglacier:**
+Glaciers, ice flow, mass balance, hydrology, blue ice, meteorites...
+(https://hydr.vub.be/research-groups/bglacier)
+
+- **Department of Water and Climate:**
+Surface, groundwater hydrology, climate, glaciology
+(https://hydr.vub.be)
+
+  </div>
 </div>
 
 
