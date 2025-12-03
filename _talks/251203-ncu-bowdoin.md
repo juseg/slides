@@ -78,6 +78,20 @@ And downscaling for Japanese and Taiwanese mountains<br>
 <img class="r-stretch" src="../assets/figures/bowtem_ogives.png">
 
 ---
+### Conclusions on temperature
+
+- Two profiles from separated by 158 to 191 m differ by up to ca. 2°C.
+- Warming up to 0.39°C a−1 much higher than diffusion and dissipation.
+- Probably latent heat from meltwater refreezing in deep crevasses.
+- Their localization of may be controlled by ogive banding?
+
+**Paper**: J. Seguinot, M. Funk, A. Bauder, T. Wyder, C. Senn and S. Sugiyama.
+Englacial warming indicates deep crevassing in Bowdoin Glacier, Greenland,
+*Frontiers in Earth Sciences*, 8:65, https://doi.org/10.3389/feart.2020.00065,
+2020.
+<!-- .element: style="text-align: left" -->
+
+---
 ### Bowdoin Glacier tilt data
 <!-- .slide: data-background-image="https://live.staticflickr.com/65535/49298829236_2546afe01d_k.jpg" -->
 
@@ -156,18 +170,9 @@ And downscaling for Japanese and Taiwanese mountains<br>
 <img class="r-stretch" src="../assets/figures/bowstr_rollcorr.png">
 
 ---
-### Conclusions
+### Conclusions on tilt and stress
 
-<!-- - Temperature -->
-<!-- - Deformation -->
-<!-- - Stress -->
 
-<!-- Temperature profiles from two drilling sites separated by 158 (2014) to 191 m (2017) differ by up to ca. 2◦ C indicating strong, full-depth longitudinal temperature variations in the glacier. -->
-<!-- Englacial warming up to 0.39◦ C a−1 , an order of magnitude above the theoretical warming from heat diffusion and viscous dissipation, indicates a deep and local heat source within the tidewater glacier. -->
-<!-- In the absence of visible moulins on the glacier surface, we interpret these results as the expression of latent heat released from meltwater refreezing in crevasses reaching to, or near to, the base of the glacier. -->
-<!-- We speculate that the localization of such deep crevasses may be controlled by preferential meltwater infiltration in topographic dips associated with ogive banding. -->
-
-<!-- Paper: J. Seguinot, M. Funk, A. Bauder, T. Wyder, C. Senn and S. Sugiyama. Englacial warming indicates deep crevassing in Bowdoin Glacier, Greenland, Frontiers in Earth Sciences, 8:65, doi:10.3389/feart.2020.00065, 2020. -->
 
 ---
 ### Thank you
