@@ -102,6 +102,10 @@ And downscaling for Japanese and Taiwanese mountains<br>
 <img class="r-stretch" src="../assets/figures/bowdef_shear.png">
 
 ---
+### Fast Fourier transform
+<img class="r-stretch" src="../assets/figures/bowstr_pgram_tifft.png">
+
+---
 ### Bowdoin Glacier stress data
 <!-- .slide: data-background-image="https://live.staticflickr.com/65535/49298829236_2546afe01d_k.jpg" -->
 
@@ -126,10 +130,7 @@ And downscaling for Japanese and Taiwanese mountains<br>
 
 ---
 ### Fast Fourier transform
-<div class="r-stack r-stretch">
-  <img src="../assets/figures/bowstr_fourier_01.png">
-  <img src="../assets/figures/bowstr_fourier.png" class="fragment">
-</div>
+<img class="r-stretch" src="../assets/figures/bowstr_pgram_stfft.png">
 
 ---
 ### Moving window spectrograms
