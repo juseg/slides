@@ -81,8 +81,11 @@ And downscaling for Japanese and Taiwanese mountains<br>
 ### Conclusions on temperature
 
 - Two profiles from separated by 158 to 191 m differ by up to ca. 2°C.
+
 - Warming up to 0.39°C a−1 much higher than diffusion and dissipation.
+
 - Probably latent heat from meltwater refreezing in deep crevasses.
+
 - Their localization of may be controlled by ogive banding?
 
 **Paper**: J. Seguinot, M. Funk, A. Bauder, T. Wyder, C. Senn and S. Sugiyama.
@@ -172,7 +175,19 @@ Englacial warming indicates deep crevassing in Bowdoin Glacier, Greenland,
 ---
 ### Conclusions on tilt and stress
 
+- Shear deformation explains 5% of observed surface velocity.
 
+- Tilt rates increase with sliding in summer speed-up events.
+
+- There is a hidden tidal signal in noisy tilt rate data.
+
+~
+
+- Pressure sensors frozen in the ice show clear tidal signal.
+
+- We do not yet have a good interpretation for these data.
+
+- I think we can measure stress in glacier.
 
 ---
 ### Thank you
