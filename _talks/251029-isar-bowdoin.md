@@ -29,42 +29,42 @@ the force**. *ISAR-8*, 29 Oct 2025.
 ---
 ### Bowdoin borehole locations
 <div class="r-stack r-stretch">
-  <img src="../assets/figures/bowstr_boreholes_01.png">
-  <img src="../assets/figures/bowstr_boreholes_02.png" class="fragment">
-  <img src="../assets/figures/bowstr_boreholes.png" class="fragment">
+  <img src="../assets/figures/bowstr_bores_01.png">
+  <img src="../assets/figures/bowstr_bores_02.png" class="fragment">
+  <img src="../assets/figures/bowstr_bores.png" class="fragment">
 </div>
 
 ---
 ### Three-year borehole record
 <div class="r-stack r-stretch">
-  <img src="../assets/figures/bowstr_timeseries_01.png">
-  <img src="../assets/figures/bowstr_timeseries_02.png" class="fragment">
-  <img src="../assets/figures/bowstr_timeseries_03.png" class="fragment">
-  <img src="../assets/figures/bowstr_timeseries_04.png" class="fragment">
-  <img src="../assets/figures/bowstr_timeseries_05.png" class="fragment">
-  <img src="../assets/figures/bowstr_timeseries.png" class="fragment">
+  <img src="../assets/figures/bowstr_nofil_01.png">
+  <img src="../assets/figures/bowstr_nofil_02.png" class="fragment">
+  <img src="../assets/figures/bowstr_nofil_03.png" class="fragment">
+  <img src="../assets/figures/bowstr_nofil_04.png" class="fragment">
+  <img src="../assets/figures/bowstr_nofil_05.png" class="fragment">
+  <img src="../assets/figures/bowstr_nofil.png" class="fragment">
 </div>
 
 ---
 ### Fast Fourier transform
 <div class="r-stack r-stretch">
-  <img src="../assets/figures/bowstr_fourier_01.png">
-  <img src="../assets/figures/bowstr_fourier.png" class="fragment">
+  <img src="../assets/figures/bowstr_pgram_stfft_01.png">
+  <img src="../assets/figures/bowstr_pgram_stfft.png" class="fragment">
 </div>
 
 ---
-### Sub-daily filtering
+### Band-pass filtering
 <div class="r-stack r-stretch">
-  <img src="../assets/figures/bowstr_highpass_01.png">
-  <img src="../assets/figures/bowstr_highpass.png" class="fragment">
+  <img src="../assets/figures/bowstr_lines_12hbp_01.png">
+  <img src="../assets/figures/bowstr_lines_12hbp.png" class="fragment">
 </div>
 
 ---
 ### Cross-correlation over a month
 <div class="r-stack r-stretch">
-  <img src="../assets/figures/bowstr_correlate_01.png">
-  <img src="../assets/figures/bowstr_correlate_02.png" class="fragment">
-  <img src="../assets/figures/bowstr_correlate.png" class="fragment">
+  <img src="../assets/figures/bowstr_ccorr_12hbp_01.png">
+  <img src="../assets/figures/bowstr_ccorr_12hbp_02.png" class="fragment">
+  <img src="../assets/figures/bowstr_ccorr_12hbp.png" class="fragment">
 </div>
 
 ---
@@ -79,15 +79,15 @@ I think so.
 
 ---
 ### Appendix -- rolling-window spectrograms
-<img class="r-stretch" src="../assets/figures/bowstr_specgrams.png">
+<img class="r-stretch" src="../assets/figures/bowstr_sgram_stfft.png">
 
 ---
 ### Appendix -- wavelet transforms
-<img class="r-stretch" src="../assets/figures/bowstr_wavelets.png">
+<img class="r-stretch" src="../assets/figures/bowstr_sgram_stcwt.png">
 
 ---
 ### Appendix -- rolling-window cross-correlation
-<img class="r-stretch" src="../assets/figures/bowstr_rollcorr.png">
+<img class="r-stretch" src="../assets/figures/bowstr_mcorr_12hbp.png">
 
 <!-- can't be moved to template -->
 </textarea>
