@@ -61,7 +61,12 @@ model of tilt unit casing with location of the sensor] .
 
 ### Three-year borehole record
 
-![bowstr_freezedates](../assets/figures/bowstr_freezedates.png)
+![bowstr_nofil](../assets/figures/bowstr_nofil.png)
+
+::: Figure 2: (a) Complete piezometer record, including the initial borehole water
+pressure measure- ments, and the transition to solid ice stress measurements.
+(b, c) Insets displaying an example of semi-diurnal periodic oscillations
+observed in the stress record after refreezing.
 
 ::: Figure 3: (a) Same as Fig. 2 but with split axes. Sharp peaks in the early part
 of the record cor- respond to the hotwater-drilled borehole refreezing phase.
@@ -70,17 +75,6 @@ long-term warming (cf. Seguinot et al., 2020). Full circles denote refreezing
 dates estimated Insets displaying an example of semi-diurnal periodic
 oscillations observed in the stress record after refreezing. [NOTE: Maybe this
 can be merged with Fig. 2.]
-
----
-
-### Zooming in on the stress record
-
-![bowstr_nofil](../assets/figures/bowstr_nofil.png)
-
-::: Figure 2: (a) Complete piezometer record, including the initial borehole water
-pressure measure- ments, and the transition to solid ice stress measurements.
-(b, c) Insets displaying an example of semi-diurnal periodic oscillations
-observed in the stress record after refreezing.
 
 ---
 
