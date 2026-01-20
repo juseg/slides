@@ -13,7 +13,7 @@ layout: slides
 <section data-markdown data-separator-notes="^:::">
 <textarea data-template>
 
-# Tilt and stress in Bowdoin Glacier, Northwest Greenland
+# Stress and tilt in Bowdoin Glacier, Northwest Greenland
 <!-- .slide: data-background-image="https://live.staticflickr.com/65535/49298829236_2546afe01d_k.jpg" -->
 
 [Julien Seguinot](https://juseg.dev), Evgeny A. Podolsky, Shin Sugiyama, Ralf
@@ -23,33 +23,6 @@ layout: slides
 ---
 ### Bowdoin Glacier drilling sites
 <img class="r-stretch" src="../assets/figures/bowtem_images.png">
-
----
-## Tilt
-
----
-### Bowdoin tilt units
-<div class="r-stack r-stretch">
-  <img src="../assets/figures/bowstr_bores_01.png">
-  <img src="../assets/figures/bowstr_bores_02.png" class="fragment">
-  <img src="../assets/figures/bowstr_bores.png" class="fragment">
-</div>
-
----
-### Tilt
-<img class="r-stretch" src="../assets/figures/bowdef_tilts.png">
-
----
-### Tilt rates
-<img class="r-stretch" src="../assets/figures/bowdef_rates.png">
-
----
-### Shear profile
-<img class="r-stretch" src="../assets/figures/bowdef_shear.png">
-
----
-### Fast Fourier transform
-<img class="r-stretch" src="../assets/figures/bowstr_pgram_tifft.png">
 
 ---
 ## Stress
@@ -109,6 +82,33 @@ layout: slides
 ---
 ### Moving window cross-correlation
 <img class="r-stretch" src="../assets/figures/bowstr_mcorr_12hbp.png">
+
+---
+## Tilt
+
+---
+### Bowdoin tilt units
+<div class="r-stack r-stretch">
+  <img src="../assets/figures/bowstr_bores_01.png">
+  <img src="../assets/figures/bowstr_bores_02.png" class="fragment">
+  <img src="../assets/figures/bowstr_bores.png" class="fragment">
+</div>
+
+---
+### Tilt
+<img class="r-stretch" src="../assets/figures/bowdef_tilts.png">
+
+---
+### Tilt rates
+<img class="r-stretch" src="../assets/figures/bowdef_rates.png">
+
+---
+### Shear profile
+<img class="r-stretch" src="../assets/figures/bowdef_shear.png">
+
+---
+### Fast Fourier transform
+<img class="r-stretch" src="../assets/figures/bowstr_pgram_tifft.png">
 
 ---
 ### Preliminary findings and open questions
