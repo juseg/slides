@@ -49,11 +49,7 @@ layout: slides
 
 ---
 ### Fast Fourier transform
-<div class="r-stack r-stretch">
-  <img src="../assets/figures/bowstr_pgram_tifft.png"
-    style="clip-path: inset(0px 200px 0px 0px)">
-  <img class="fragment" src="../assets/figures/bowstr_pgram_tifft.png" >
-</div>
+<img class="r-stretch" src="../assets/figures/bowstr_pgram_tifft.png">
 
 ---
 ## Stress
