@@ -48,8 +48,7 @@ VUB, 06 Nov 2024.
 
 ### Bowdoin borehole locations
 
-![bowstr_boreholes](../assets/figures/bowstr_boreholes.png) <!-- .element height="320px" -->
-![bowstr_casing](../assets/figures/bowstr_casing.png) <!-- .element height="320px" -->
+![bowstr_bores](../assets/figures/bowstr_bores.png)
 
 ::: Figure 1: (a) Bowdoin borehole locations from drilling in July 2014 to
 dismantling in July 2017 and background satellite image from 2017 March 10,
@@ -62,7 +61,12 @@ model of tilt unit casing with location of the sensor] .
 
 ### Three-year borehole record
 
-![bowstr_freezedates](../assets/figures/bowstr_freezedates.png)
+![bowstr_nofil](../assets/figures/bowstr_nofil.png)
+
+::: Figure 2: (a) Complete piezometer record, including the initial borehole water
+pressure measure- ments, and the transition to solid ice stress measurements.
+(b, c) Insets displaying an example of semi-diurnal periodic oscillations
+observed in the stress record after refreezing.
 
 ::: Figure 3: (a) Same as Fig. 2 but with split axes. Sharp peaks in the early part
 of the record cor- respond to the hotwater-drilled borehole refreezing phase.
@@ -74,20 +78,9 @@ can be merged with Fig. 2.]
 
 ---
 
-### Zooming in on the stress record
+### Band-pass filtering
 
-![bowstr_timeseries](../assets/figures/bowstr_timeseries.png)
-
-::: Figure 2: (a) Complete piezometer record, including the initial borehole water
-pressure measure- ments, and the transition to solid ice stress measurements.
-(b, c) Insets displaying an example of semi-diurnal periodic oscillations
-observed in the stress record after refreezing.
-
----
-
-### High-pass filtering
-
-![bowstr_highpass](../assets/figures/bowstr_highpass.png)
+![bowstr_lines_12hbp](../assets/figures/bowstr_lines_12hbp.png)
 
 ::: Figure 4: (a) Complete piezometer record, after applying a fourth-order
 Butterworth high-pass filter with a cut-off period of one day. The bottom curve
@@ -105,7 +98,7 @@ highlight the freezing dates?]
 
 ### Fast Fourier transform
 
-![bowstr_fourier](../assets/figures/bowstr_fourier.png)
+![bowstr_pgram_stfft](../assets/figures/bowstr_pgram_stfft.png)
 
 ::: Figure 5: (a–i) Fast-fourier transforms of the (non-filtered) series of stress
 derivative over time (kPa s−1 ) after refreezing. The refreezing date is
@@ -120,7 +113,7 @@ the stress records.
 
 ### Rolling-window spectrograms
 
-![bowstr_specgrams](../assets/figures/bowstr_specgrams.png)
+![bowstr_sgram_stfft](../assets/figures/bowstr_sgram_stfft.png)
 
 ::: Figure 6: (a–h) Rolling-window spectrograms of glacier stress and tidal pressure temporal deriva-
 tives after refreezing of the individual units. Fourier transforms are computed on 14-day windows
@@ -134,7 +127,7 @@ are omitted due to the short length of their solid stress record after refreezin
 
 ### Wavelet transforms
 
-![bowstr_wavelets](../assets/figures/bowstr_wavelets.png)
+![bowstr_sgram_stcwt](../assets/figures/bowstr_sgram_stcwt.png)
 
 ::: Figure 7: (a–h) Continuous wavelet transforms of glacier stress and tidal pressure temporal deriva-
 tives after applying a fourth-order Butterworth high-pass filter with a cut-off period of one day
@@ -149,7 +142,7 @@ the end of the melt season.]
 
 ### Cross-correlation over a month
 
-![bowstr_correlate](../assets/figures/bowstr_correlate.png)
+![bowstr_ccorr_12hbp](../assets/figures/bowstr_ccorr_12hbp.png)
 
 ::: Figure 8: (a) Extract of the piezometer record and tidal pressure for October 2014, after applying
 a fourth-order Butterworth band-pass filter with cut-off periods of 0.5 and 12 h. [TODO: try 15 h,
@@ -163,7 +156,7 @@ phase delay as a function of sensor depth. [TODO: fix labels, check that the clo
 
 ### Rolling-window cross-correlation
 
-![bowstr_rollcorr](../assets/figures/bowstr_rollcorr.png)
+![bowstr_mcorr_12hbp](../assets/figures/bowstr_mcorr_12hbp.png)
 
 ::: Figure 9: (a-g) Rolling-window cross-correlation between the piezometer and tidal pressure record
 when the latter is available, after applying a fourth-order Butterworth band-pass filter with cut-off
