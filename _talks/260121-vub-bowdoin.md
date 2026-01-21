@@ -47,11 +47,15 @@ layout: slides
 </div>
 
 ---
-### Fast Fourier transform
+### Stress fast Fourier transform
 <div class="r-stack r-stretch">
   <img src="../assets/figures/bowstr_pgram_stfft_01.png">
   <img src="../assets/figures/bowstr_pgram_stfft.png" class="fragment">
 </div>
+
+---
+### Stress Lomb-Scargle periodogram
+<img class="r-stretch" src="../assets/figures/bowstr_pgram_stlsp.png">
 
 ---
 ### Moving window spectrograms
@@ -78,6 +82,10 @@ layout: slides
   <img src="../assets/figures/bowstr_ccorr_12hbp_02.png" class="fragment">
   <img src="../assets/figures/bowstr_ccorr_12hbp.png" class="fragment">
 </div>
+
+---
+### Cross-correlation of Hilbert analytic phase
+<img class="r-stretch" src="../assets/figures/bowstr_ccorr_phase.png">
 
 ---
 ### Moving window cross-correlation
@@ -107,7 +115,7 @@ layout: slides
 <img class="r-stretch" src="../assets/figures/bowdef_shear.png">
 
 ---
-### Fast Fourier transform
+### Tilt fast Fourier transform
 <img class="r-stretch" src="../assets/figures/bowstr_pgram_tifft.png">
 
 ---
